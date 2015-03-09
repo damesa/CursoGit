@@ -1,3 +1,12 @@
 body{
-	background: #bbb;
+	background: #FA5E5E;
+}
+
+li {
+    display: inline-block;
+}
+
+li::before {
+    content: "|";
+    margin: 1rem;
 }
